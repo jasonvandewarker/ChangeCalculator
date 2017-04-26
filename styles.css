@@ -1,1 +1,30 @@
+h1 {
+    text: fff;
+    text-shadow: 2px 2px 1px #222;
+    text-transform: capitalize;
+}
 
+body {
+  text-align: center;
+  background-image: url(sd1.jpg);
+  background-size: 100% 100% cover;
+  background-repeat: no-repeat;
+  font-family: 'Archivo Black', sans-serif;;
+}
+
+p {
+  display: inline-block;
+}
+
+#stuff {
+  display: block;
+  padding: 40px;
+}
+
+button {
+  padding-top: 200px;
+}
+
+.form-control {
+  padding: 15px;
+}
