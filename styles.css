@@ -1,19 +1,13 @@
-h1 {
-    text: fff;
-    text-shadow: 2px 2px 1px #222;
-    text-transform: capitalize;
-}
-
 body {
   text-align: center;
   background-image: url(sd1.jpg);
   background-size: 100% 100% cover;
   background-repeat: no-repeat;
-  font-family: 'Archivo Black', sans-serif;;
 }
 
-p {
-  display: inline-block;
+h1 {
+  color: white;
+  text-shadow: 2px 2px 1px #222;
 }
 
 #stuff {
@@ -21,10 +15,43 @@ p {
   padding: 40px;
 }
 
-button {
-  padding-top: 200px;
+#button {
+  font-weight: bold;
+
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+p {
+  color: white;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 150%;
+  text-align: : left;
 }
 
 .form-control {
   padding: 15px;
+  background-color: white;
+  background-image: url(dollar-sign-icon.png);
+  background-position: 4px;
+  background-repeat: no-repeat;
+  padding-left: 40px;
+}
+
+#custlabel {
+  margin-right: -10px;
+}
+
+#prodlabel {
+  margin-right: 7px;
+}
+
+#productcost {
+  margin-right: 15px;
+  width: auto;
+}
+
+#custamount {
+  margin-left: 15px;
+  width: auto;
 }
